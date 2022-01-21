@@ -1,25 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import LayoutComponent from './components/LayoutComponent';
+//import LayoutComponentTwo from './components/LayoutComponentTwo';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default function App() {
+    return (
+        <div className="App">
+            <LayoutComponent />
+            {/* <LayoutComponentTwo /> */}
+        </div>
+    );
 }
-
-export default App;
+//  <LayoutComponent /> aitai layoutComponentOne function name jekono kicu dewa jay khewal rakhte hobe export default jeno function nam e hoy tahole sobai access pabe
